@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="app-company" />
         <module name="app-users" />
-        <module name="eureka-client" />
+        <module name="config-server" />
         <module name="eureka-server" />
         <module name="my_springcloud" />
         <module name="user-app" />
@@ -16,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="company-app" target="1.8" />
+      <module name="eureka-client" target="1.8" />
       <module name="user-app" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +25,7 @@
       <module name="app-company" options="-parameters" />
       <module name="app-users" options="-parameters" />
       <module name="company-app" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="user-app" options="-parameters" />
